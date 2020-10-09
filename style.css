@@ -1,0 +1,22 @@
+body {
+    
+}
+
+#card {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #F00, #0F0);
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#wrap {
+    margin: 200px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border-color: black;
+    border-style: solid;
+    perspective: 1000px;
+}

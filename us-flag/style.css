@@ -1,0 +1,107 @@
+#flag {
+    width: 1000px;
+    height: 526px;
+    margin: auto;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+    position: relative;
+}
+
+#stripes {
+    width: 100%;
+    height: 100%;
+}
+
+.star {
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height: 100%;
+}
+
+.stripe {
+    width: 100%;
+    height: 7.69%;
+}
+
+.stripe-red {
+    background-color: rgb(218, 3, 3);
+}
+
+.stripe-white {
+    background-color: white;
+}
+
+#stars {
+    background-color: darkblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 53.85%;
+}
+
+.stars--row {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12%;
+}
+
+.stars--row-even {
+    width: 90%;
+}
+
+.stars--row-odd {
+    width: 75%;
+}
+
+.stars--row-even .star {
+    width: 9.5%;
+}
+
+.stars--row-odd .star {
+    width: 11%;
+}
+
+.stars--row-1st {
+    top: 4%;
+}
+
+.stars--row-2nd {
+    top: 14%;
+}
+
+.stars--row-3rd {
+    top: 24%;
+}
+
+.stars--row-4th {
+    top: 34%;
+}
+
+.stars--row-5th {
+    top: 44%;
+}
+
+.stars--row-6th {
+    top: 54%;
+}
+
+.stars--row-7th {
+    top: 64%;
+}
+
+.stars--row-8th {
+    top: 74%;
+}
+
+.stars--row-9th {
+    top: 84%;
+}
